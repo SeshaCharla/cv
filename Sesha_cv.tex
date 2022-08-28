@@ -12,8 +12,8 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
-%\usepackage[top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
-\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+%\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{fancyhdr}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
@@ -33,15 +33,15 @@
 \huge{\textit{Sesha N.} \textsc{Charla}}\\
 \small PhD Candidate $\cdot$ School of Mechanical Engineering $\cdot$ Purdue University\\
 \small scharla@purdue.edu $\mid$ +1 (765) 714 4235   \\
-%\hrulefill
 \end{center}
 
 
 
 \begin{tabular}{l c l}
     {\large{\textsc{Objective}}}&:& Internship$/$Co-op.\\
-	{\large{\textsc{Core Skills}}}&:& Control Engineering, System Identification, Signal Processing, Electromechanical Systems Design, \\
-    & & Robotics, Embedded Programming, Machine Learning and Optimization.\\
+{\large{\textsc{Core Skills}}}&:& Control Engineering, System Identification Signal Processing\\
+ & & Electromechanical Systems Design, Robotics, Embedded Programming\\
+     & & Machine Learning and Optimization.\\
 \end{tabular}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,19 +50,23 @@
 
 \section{Work Experience}
 \noindent \textsc{Virgin Hyperloop} \hfill Los Angeles, California, USA.\\
-
 \vspace{3pt}
 \textbf{\textit{Motion Control Engineering Intern}} \hfill Jun. 2022 $-$ Aug. 2022
 \begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={--}]
-    \item Developed a supervisory control for minimizing the force missmatch
-        accross the bogie for imporving eninge efficiency.
+    \item Developed a supervisory control for minimizing the force mismatch
+across the bogie for improving EM engine efficiency and worked out the necessary
+requirements through cross team meetings.
+\item Refined the control architecture for single EM engine control and
+demonstrated the limitation of the linear design on the non-linear system.
+\item Developed a MIMO model for the guidance bogie engine assembly and worked
+out the stability of off-diagonal elements w.r.t suspension parameters.
 \end{itemize}
-
-\vspace{6pt}
-\noindent \textsc{U.R Rao Satellite centre (URSC) - Indian Space Research Organization (ISRO)} \hfill Benguluru, India \\
-
+%===============================================================================
+%===============================================================================
+\vspace{10pt}
+\noindent \textsc{U.R Rao Satellite centre (URSC) - Indian Space Research Organization (ISRO)} \hfill India \\
 \vspace{3pt}
-\textbf{\textit{Thermal Test Engineer [Scientist/Engineer "SC"], Thermal Systems Group}} \hfill Jul. 2016 $-$ Jul. 2019
+\textbf{\textit{Thermal Test Engineer, Thermal Systems Group}} \hfill Jul. 2016 $-$ Jul. 2019
 \begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={--}]
     \item Worked thermal instrumentation and control for thermal-vacuum and thermal-balance tests of satellite systems.
 	\item Team lead for \textit{Chandrayan-2} (the lunar lander project of ISRO) mission's orbiter, lander and rover.
@@ -70,14 +74,17 @@
 	\item Improved and standardized the heater design through a web application to streamline PI gain tuning and in-situ heater sensor mapping for the technology development program: \textit{Automation of thermal control during satellite tests}.
     \item Held the position of \textit{Project Manager: Thermal Testing, Human Space Program (HSP)} from Jan. $2019$ to Jul. $2019$, to assist in development of procedures and infrastructure for thermal vacuum and thermal balance testing of the proposed new designs of the spacecrafts.\\
 \end{itemize}
-
+%===============================================================================
+%===============================================================================
 \section{Academic Work Experience}
 \noindent \textsc{Purdue University} \hfill West Lafayette, IN, USA \\
 \vspace{3pt}
 \noindent \textbf{\textit{Graduate Teaching Assistant}} \hfill Aug. 2020 $-$ Present\\
 \begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={--}]
-    \item Taught laboratory courses in Measurement and Control (ME 375, ME 365, AAE 364).
-    \item Organized office hours for students to ask questions and discuss the course homeworks and projects.
+\item Teaching Assistant for Microprocessors and Electromechanical Systems $(ME
+586)$ course and Lab.
+    \item Taught undergraduate laboratory courses in Measurement and Control (ME 375, ME 365, AAE 364).
+    \item Organized office hours for students to ask questions and discuss the course homework and projects.
 \end{itemize}
 \vspace{3pt}
 \noindent \textbf{\textit{Graduate Research Assistant (Masters)}} \hfill Aug. 2020 $-$ Dec. 2020\\
@@ -118,10 +125,9 @@ of the Actuator Dynamics in a Multi-rotor Aerial Vehicle. Manuscript submitted t
 \vspace{5pt}
 \noindent \textsc{Indian Institute of Space Science and Technology (IIST)} \hfill Thiruvananthapuram, India\\
 \textbf{\textit{Bachelor of Technology in Aerospace Engineering}} \hfill \textsc{GPA}: $8.34/10$ \hfill Aug. 2012 $-$ May. 2016 \\
-\textsc{Thesis Title}: Modelling and Simulation of a Flexible Launch Vehicle
-\hfill \textsc{Adviser}: Prof. K. Kurien Issac \\
-%\textsc{Major Project}: Design and Development of a Flapping Wing Micro Air Vehicle \hfill {Nov. 2013 $-$ Dec. 2014}\\
+%\textsc{Thesis Title}: Modelling and Simulation of a Flexible Launch Vehicle
 Recipient of \textit{DOS-ISRO Scholarship}.
+\hfill \textsc{Adviser}: Prof. K. Kurien Issac \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -129,11 +135,11 @@ Recipient of \textit{DOS-ISRO Scholarship}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Technical Skills}
 \begin{tabular}{l c l}
-\textsc{Control Design}&:& Optimal Control, Robust and MIMO
-Control, Adaptive and Nonlinear Control\\
+\textsc{Control Design}&:& Robust control, MIMO systems, Adaptive control and Nonlinear systems\\
 	\textsc{Programming Languages}&:& Python, MATLAB, C, C++, Bash, R, Julia\\
-    \textsc{Embedded Programming}&:& C, ARM Cortex-M3/M4 Assembly (TIVA-TM4C123GXL, STM32-Discovery)\\
-	\textsc{OS \& Software Tools}&:& Linux, Git, Simulink, LabView, AutoCad, Catia, Solid Works, NX\\
-	\textsc{Machining}&:& Lathe, Milling, Drilling; CNC programming\\
+\textsc{Embedded Programming}&:& C, C++, ARM Cortex-M3/M4 Assembly
+(STM32-Discovery), NI-MyRio\\
+	\textsc{OS \& Software Tools}&:& Linux, Git, Simulink, LabView\\
+	%\textsc{Machining}&:& Lathe, Milling, Drilling; CNC programming\\
 \end{tabular}
 \end{document}
