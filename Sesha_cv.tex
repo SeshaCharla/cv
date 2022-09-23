@@ -1,4 +1,4 @@
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -12,8 +12,8 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
-%\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
-\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+%\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{fancyhdr}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
@@ -24,7 +24,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\Large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}\titlerule \vspace{-5pt}]
 
 
 \begin{document}
@@ -39,9 +39,8 @@
 
 \begin{tabular}{l c l}
     {\large{\textsc{Objective}}}&:& Internship$/$Co-op.\\
-{\large{\textsc{Core Skills}}}&:& Control Engineering, System Identification Signal Processing\\
- & & Electromechanical Systems Design, Robotics, Embedded Programming\\
-     & & Machine Learning and Optimization.\\
+{\large{\textsc{Core Skills}}}&:& Control Theory, Dynamic Modelling, System
+Identification and Optimization\\
 \end{tabular}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,36 +71,18 @@ out the stability of off-diagonal elements w.r.t suspension parameters.
 	\item Team lead for \textit{Chandrayan-2} (the lunar lander project of ISRO) mission's orbiter, lander and rover.
     \item Augmented the software of existing \textit{SCADA} system for simultaneous testing of multiple satellites, doubling the productivity of test systems.
 	\item Improved and standardized the heater design through a web application to streamline PI gain tuning and in-situ heater sensor mapping for the technology development program: \textit{Automation of thermal control during satellite tests}.
-    \item Held the position of \textit{Project Manager: Thermal Testing, Human Space Program (HSP)} from Jan. $2019$ to Jul. $2019$, to assist in development of procedures and infrastructure for thermal vacuum and thermal balance testing of the proposed new designs of the spacecrafts.\\
-\end{itemize}
-%===============================================================================
-%===============================================================================
-\section{Academic Work Experience}
-\noindent \textsc{Purdue University} \hfill West Lafayette, IN, USA \\
-\vspace{3pt}
-\noindent \textbf{\textit{Graduate Teaching Assistant}} \hfill Aug. 2020 $-$ Present\\
-\begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={--}]
-\item Teaching Assistant for Microprocessors and Electromechanical Systems $(ME
-586)$ course and Lab.
-    \item Taught undergraduate laboratory courses in Measurement and Control (ME 375, ME 365, AAE 364).
-    \item Organized office hours for students to ask questions and discuss the course homework and projects.
-\end{itemize}
-\vspace{3pt}
-\noindent \textbf{\textit{Graduate Research Assistant (Masters)}} \hfill Aug. 2020 $-$ Dec. 2020\\
-\textit{Flight Dynamics, Controls and Hybrid Systems Lab}
-\begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={--}]
-	\item Developed a simplex chain design methodology using convex optimization for solving control problems specified using linear temporal logic (Reach Control Problem) in up to 3-dimensional state spaces with multiple control inputs and explored its possible applications to shared control and path planning.
+    \item Held the position of \textit{Project Manager, Thermal Testing, Human Space Program (HSP)} from Jan. $2019$ to Jul. $2019$, to assist in development of procedures and infrastructure for thermal vacuum and thermal balance testing of the proposed new designs of the spacecrafts.\\
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PUBLICATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Publications}
-\begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={}]
-\item Charla, S., Yao, B., Voyles, R., (2022). On Enhancing the Bandwidth
-of the Actuator Dynamics in a Multi-rotor Aerial Vehicle. Manuscript submitted to 2022 Modeling, Estimation and Control Conference.
+\begin{itemize}[noitemsep,nolistsep,leftmargin=0.15in, label={--}]
+\item Charla, S., Yao, B., Voyles, R., On Enhancing the Bandwidth of the
+Actuator Dynamics in a Multi-Rotor Aerial Vehicle, Modeling, Estimation and
+Control Conference (MECC), 2022.
 \end{itemize}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % EDUCATION
@@ -110,9 +91,10 @@ of the Actuator Dynamics in a Multi-rotor Aerial Vehicle. Manuscript submitted t
 \noindent \textsc{Purdue University}, \textit{School of Mechanical Engineering} \hfill West Lafayette, IN, USA \\
 \textbf{\textit{PhD in Mechanical Engineering}} \hfill Aug. 2021 $-$ Present\\
 \textsc{Area}: \textit{\textbf{Systems, Measurement and Controls}}  \hfill \textsc{Advisor}: Prof. Bin Yao\\
-%\textsc{Course Work:} ME 586: Microprocessors in Electromechanical Systems, ME 584: System Identification.\hfill \textsc{GPA}: $3.81/4$\\
-\textsc{Current Project}: Fault-tolerant controller design and implementation for a fully actuated tilted-wing hexacopter.\\
-
+%\textsc{Course Work:} ME 586: Microprocessors in Electromechanical Systems, ME
+%584: System Identification, ME 675: Multivariable Control.
+\textsc{Current Project}: Fault-tolerant controller design and implementation on
+a fully actuated tilted-wing hexacopter for aerial manipulation.\hfill \textsc{GPA}: $3.75/4$\\
 \vspace{5pt}
 \noindent \textsc{Purdue University}, \textit{School of Aeronautics and Astronautics} \hfill West Lafayette, IN, USA \\
 \textbf{\textit{Masters in Aeronautics and Astronautics}} \hfill Aug. 2019 $-$ Aug. 2021\\
@@ -121,13 +103,41 @@ of the Actuator Dynamics in a Multi-rotor Aerial Vehicle. Manuscript submitted t
 %\textsc{Course Work}: ME 686: Adaptive Control, AAE 668: Hybrid Systems, ME 677: Non-linear Systems, AAE 564: Linear Systems,  AAE 568: Optimal Control, ECE 680: Modern Automatic Control, CS 590: Reinforcement Learning, ECE 595: Machine Learning 1, STAT 545: Computational Statistics, MA 514 : Numerical Analysis
 \hfill \textsc{GPA}: $3.77/4$\\
 
-
 \vspace{5pt}
 \noindent \textsc{Indian Institute of Space Science and Technology (IIST)} \hfill Thiruvananthapuram, India\\
 \textbf{\textit{Bachelor of Technology in Aerospace Engineering}} \hfill \textsc{GPA}: $8.34/10$ \hfill Aug. 2012 $-$ May. 2016 \\
-%\textsc{Thesis Title}: Modelling and Simulation of a Flexible Launch Vehicle
+\textsc{Thesis}: Finite Element Dynamic Model using Lagrangian for Launch
+Vehicle Bending and Trajectory Simulations.
 Recipient of \textit{DOS-ISRO Scholarship}.
 \hfill \textsc{Adviser}: Prof. K. Kurien Issac \\
+
+%===============================================================================
+% Academic Work Experience
+%===============================================================================
+\section{Academic Work Experience}
+\noindent \textsc{Purdue University} \hfill West Lafayette, IN, USA \\
+\vspace{3pt}
+\noindent \textbf{\textit{Graduate Teaching Assistant}} \hfill Aug. 2020 $-$ Present\\
+\begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={--}]
+\item Teaching Assistant for Microprocessors and Electromechanical Systems $(ME
+586)$ course and Programming Lab.
+    \begin{itemize}
+\item Developing control system for refrigeration system with variable speed
+compressor and flow control valve and implementing it using STM32 Discovery
+board (guided final project for the course).
+\item Conducting laboratory and office hours for assembly and C programming on
+STM32 Discovery for implementing control algorithms.
+    \end{itemize}
+\item Taught undergraduate laboratory courses in Measurement and Control (ME
+375, ME 365, AAE 364).
+\end{itemize}
+\vspace{3pt}
+\noindent \textbf{\textit{Graduate Research Assistant (Masters)}} \hfill Aug. 2020 $-$ Dec. 2020\\
+\textit{Flight Dynamics, Controls and Hybrid Systems Lab}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=0.25in,label={--}]
+	\item Developed a simplex chain design methodology using convex optimization for solving control problems specified using linear temporal logic (Reach Control Problem) in up to 3-dimensional state spaces with multiple control inputs and explored its possible applications to shared control and path planning.
+\end{itemize}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -135,11 +145,10 @@ Recipient of \textit{DOS-ISRO Scholarship}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Technical Skills}
 \begin{tabular}{l c l}
-\textsc{Control Design}&:& Robust control, MIMO systems, Adaptive control and Nonlinear systems\\
+\textsc{Control Design}&:& Robust control, MIMO systems, Adaptive and Nonlinear control\\
 	\textsc{Programming Languages}&:& Python, MATLAB, C, C++, Bash, R, Julia\\
-\textsc{Embedded Programming}&:& C, C++, ARM Cortex-M3/M4 Assembly
-(STM32-Discovery), NI-MyRio\\
-	\textsc{OS \& Software Tools}&:& Linux, Git, Simulink, LabView\\
+    \textsc{Embedded Programming}&:& C, C++, ARM Cortex-M3/M4 Assembly, LabView for NI-MyRio\\
+	\textsc{OS \& Software Tools}&:& Linux, Git, Simulink, Jira, \LaTeX\\
 	%\textsc{Machining}&:& Lathe, Milling, Drilling; CNC programming\\
 \end{tabular}
 \end{document}
